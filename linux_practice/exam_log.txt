@@ -1,0 +1,43 @@
+    1  ls
+    2  cd 231903704_Mendoza
+    3  ls
+    4  cd linux_practice
+    5  ls
+    6  ls -l heaf
+    7  ls -l head
+    8  ls -l notes.txt
+    9  echo "Hello, Linux!" > notes.txt
+   10  echo "This is a practical exam." >> notes.txt
+   11  cat notes.txt
+   12  head -n 1 notes.txt
+   13  tail -n 1 notes.txt
+   14  mkdir subdir
+   15  mv notes.txt subdir/
+   16  mkdir subdir
+   17  mv notes.txt subdir/
+   18  mv notes.txt subdir
+   19  ls
+   20  cd subdir
+   21  ls
+   22  exit
+   23  ls
+   24  cd 231903704_Mendoza
+   25  ls
+   26  cd linux_practice
+   27  ls
+   28  mv subdir practice_subdir
+   29  ls
+   30  cp practice_subdir/notes.txt .
+   31  date
+   32  uptime
+   33  ssh -V
+   34  php -v
+   35  mysql --version
+   36  pkg install mariadb
+   37  mysql --version
+   38  apache2 -v
+   39  python --version
+   40  pkg install python
+   41  java -version
+   42  git checkout -b finalexam
+   43  history > exam_log.txt
